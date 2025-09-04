@@ -1,0 +1,189 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter";
+    background-color: #EDEFEF;
+}
+nav {
+    background-color: #EDEFEF;
+    display: flex;
+    border-bottom: 1px solid #c9c9c9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    transition: 0.3s;
+}
+.nav-links a:hover {
+    color: rgb(31, 146, 31);
+}
+.login {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 2.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 85%;
+    font-weight: bold;
+}
+.signup {
+    background-color: rgb(211, 211, 211);
+    color: black;
+    width: 130px;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 2.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 85%; 
+    font-weight: bold;
+}
+.login:hover {
+    background-color: rgb(31, 146, 31);
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.signup:hover {
+    background-color: rgb(31, 146, 31);
+    color: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main-title {
+    padding-top: 2%;
+}
+.main-title h1 {
+    font-family: 'Boldonse';
+    font-size: 370%; 
+    font-weight: bold;
+}
+.main-title h2 {
+    color: rgb(129, 129, 129);
+    margin-top: -35px;
+    margin-bottom: 50px;
+    font-family: 'Inter';
+    font-size: 150%;
+    font-weight: 400;
+}
+.invest {
+    background-color: rgb(31, 146, 31);
+    color: white;
+    width: 160px;
+    height: 60px;
+    margin-right: 8px;
+    border-radius: 3.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 120%;
+    font-weight: bold;
+}
+.simulate {
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 60px;
+    margin-left: 8px;
+    border-radius: 3.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 120%;
+    font-weight: bold;
+}
+.invest:hover {
+    background-color: rgb(31, 146, 31);
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.simulate:hover {
+    color: rgb(31, 146, 31);;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.devices-images {
+    padding-top: 5%;
+    margin-bottom: -1cap;
+    transition: 1.5s;
+}
+.black-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+    font-size: 150%;
+    padding: 5%;
+}
+.black-box h2 {
+    font-size: 39px;
+    margin-top: -2.5em;
+    font-family: 'Boldonse';
+}
+.black-box h3 {
+    color: rgb(129, 129, 129);
+    font-size: 25px;
+    margin-top: -15px;
+    margin-bottom: 10%;
+}
+.try-it-now {
+    background-color: rgb(31, 146, 31);
+    color: white;
+    width: 240px;
+    height: 80px;
+    margin-left: 27%;
+    border-radius: 3.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 100%;
+    font-weight: bold;
+    text-justify: distribute;
+}
+.try-it-now:hover {
+    background-color: rgb(31, 146, 31);
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.image-black-box {
+    margin-right: 5%;
+    margin-top: -4em;
+}
+.app-screen {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+.app-screen h2 {
+    font-size: 39px;
+    font-family: 'Boldonse';
+    text-align: right;
+}
+.app-screen img {
+    width: 400px;
+    margin-left: 85px;
+}
