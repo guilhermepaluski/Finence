@@ -63,8 +63,7 @@ nav {
     font-weight: bold;
 }
 .login:hover {
-    background-color: rgb(31, 146, 31);
-    color: #000000;
+    color: rgb(31, 146, 31);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -121,7 +120,7 @@ nav {
     cursor: pointer;
 }
 .simulate:hover {
-    color: rgb(31, 146, 31);;
+    color: rgb(31, 146, 31);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -150,6 +149,7 @@ nav {
     font-size: 25px;
     margin-top: -15px;
     margin-bottom: 10%;
+    font-weight: 400;
 }
 .try-it-now {
     background-color: rgb(31, 146, 31);
@@ -174,10 +174,70 @@ nav {
     margin-right: 5%;
     margin-top: -4em;
 }
+.companies-title {
+    justify-content: center;
+    text-align: center;
+}
+.companies-title h2 {
+    font-size: 49px;
+    margin-top: 5%;
+    font-family: 'Boldonse';
+}
+.companies-title h3 {
+    color: rgb(129, 129, 129);
+    margin-top: -15px;
+    font-family: 'Inter';
+    font-size: 150%;
+    font-weight: 400;
+}
+.companies-logo {
+    display: flex;
+    padding: 100px;
+    gap: 175px;
+    transition: 0.3s;
+}
+.red-arrow-icon-1 {
+    margin-top: 20%;
+    margin-left: 40%;
+    transform: rotate(15deg);
+}
+.red-arrow-icon-2 {
+    margin-top: -20%;
+    margin-right: 35%;
+    transform: rotate(-15deg);
+}
+.red-arrow-icon-3 {
+    margin-top: 30%;
+    margin-left: 50%;
+    transform: rotate(15deg);
+}
+.red-arrow-icon-4 {
+    margin-right: 25%;
+    transform: rotate(-25deg);
+}
+.youtube-logo-image {
+    transform: rotate(-15deg);
+}
+.spotify-logo-image {
+    transform: rotate(15deg);
+}
+.amazon-logo-image {
+    transform: rotate(-15deg);
+}
+.netflix-logo-image {
+    margin-left: 5%;
+    transform: rotate(25deg);
+}
 .app-screen {
     display: flex;
     padding: 5%;
     justify-content: space-between;
+    background-color: #000000;
+    color: #ffffff;
+    border-top-left-radius: 3.5rem;
+    border-top-right-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
 }
 .app-screen h2 {
     font-size: 39px;
@@ -187,6 +247,13 @@ nav {
 .app-screen img {
     width: 400px;
     margin-left: 85px;
+}
+.app-store {
+
+}
+.app-store h2{
+    font-size: 39px;
+    font-family: 'Boldonse';
 }
 footer {
     background-color: #000000;
