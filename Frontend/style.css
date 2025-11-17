@@ -192,22 +192,23 @@ nav {
 }
 .companies-logo {
     display: flex;
-    padding: 100px;
-    gap: 175px;
+    padding: 200px;
+    gap: 225px;
     transition: 0.3s;
 }
 .red-arrow-icon-1 {
-    margin-top: 20%;
+    display: flex;
+    margin-top: 10%;
     margin-left: 40%;
     transform: rotate(15deg);
 }
 .red-arrow-icon-2 {
-    margin-top: -20%;
+    margin-top: -30%;
     margin-right: 35%;
     transform: rotate(-15deg);
 }
 .red-arrow-icon-3 {
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 50%;
     transform: rotate(15deg);
 }
@@ -247,9 +248,6 @@ nav {
 .app-screen img {
     width: 400px;
     margin-left: 85px;
-}
-.app-store {
-
 }
 .app-store h2{
     font-size: 39px;
