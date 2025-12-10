@@ -247,6 +247,7 @@ nav {
 }
 .app-screen img {
     width: 400px;
+    height: 800px;
     margin-left: 85px;
 }
 .app-store h2{
@@ -256,10 +257,63 @@ nav {
 .app-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+}
+.app-text h3 {
+    color: rgb(129, 129, 129);
+    font-size: 25px;
+    margin-top: -15px;
+    margin-bottom: 10%;
+    font-weight: 400;
+    text-align: right;
 }
 .app-feedback img {
     width: 400px;
+    height: 500px;
+}
+.app-store {
+    justify-content: center;
+    text-align: center;
+}
+.app-store h2 {
+    font-size: 49px;
+    margin-top: 5%;
+    font-family: 'Boldonse';
+}
+.app-store h3 {
+    color: rgb(129, 129, 129);
+    margin-top: -15px;
+    font-family: 'Inter';
+    font-size: 150%;
+    font-weight: 400;
+}
+.mountain-app-store {
+    position: relative;
+}
+.mountain-app-store img {
+    display: block;
+}
+.btnsDownloadApp {
+    position: absolute;
+    top: 25%;
+    z-index: 10;
+    display: flex;
+    padding: 40px;
+    margin-left: 40px;
+    gap: 40px;
+}
+.btnsDownloadApp img {
+    width: 300px;
+}
+.download-app-store {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.download-google-play {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 footer {
     background-color: #000000;
