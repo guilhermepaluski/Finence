@@ -1,0 +1,75 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter";
+    background-color: #EDEFEF;
+}
+nav {
+    background-color: #EDEFEF;
+    display: flex;
+    border-bottom: 1px solid #c9c9c9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    transition: 0.3s;
+}
+.nav-links a:hover {
+    color: rgb(31, 146, 31);
+}
+.login {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 2.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 85%;
+    font-weight: bold;
+}
+.signup {
+    background-color: rgb(211, 211, 211);
+    color: black;
+    width: 130px;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 2.5rem;
+    border: none;
+    font-family: 'Boldonse';
+    font-size: 85%; 
+    font-weight: bold;
+}
+.login:hover {
+    color: rgb(31, 146, 31);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.signup:hover {
+    background-color: rgb(31, 146, 31);
+    color: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
