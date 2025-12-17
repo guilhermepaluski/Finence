@@ -73,3 +73,33 @@ nav {
     transition: 0.3s;
     cursor: pointer;
 }
+
+.sidebar {
+    position: sticky;
+    width: 250px;
+    height: full-height;
+    border-right: 1px solid #c9c9c9;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.settings-sidebar-section {
+    border-top: 1px solid #c9c9c9;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.settings-sidebar-section li {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
